@@ -1,0 +1,138 @@
+/* Custom styles for the logo */
+.lubranta-logo {
+  max-width: 100px; /* Adjust based on your logo size */
+}
+
+/* Custom styles for icon */
+.lubranta-icon.mb-4 > img {
+  max-width: 160px; /* Adjust based on your icon size */
+}
+
+/* Background styling */
+.bg {
+  background-image: url(../image/background-image.png);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+
+/* Product styles */
+.product-inner2 {
+  width: 50%;
+}
+
+.producted {
+  width: 100%;
+}
+
+/* Basic dropdown styling */
+.dropdown-menu {
+  /* background-color: #343a40; */
+  border: none;
+  z-index: 1050;
+}
+
+.dropdown-item {
+  
+  display: flex;
+  justify-content: space-between;
+ 
+  align-items: center;
+}
+
+/* Styling for dropdown items */
+
+
+/* Change color on hover */
+.dropdown-item:hover {
+  color: #fff; /* Keep text white on hover */
+  background-color: #495057; /* Change background color on hover */
+}
+
+/* Custom styles for nested dropdown */
+.dropdown-submenu {
+  position: relative;
+}
+
+/* Position the nested dropdown menu */
+.dropdown-menu.new {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 100%; /* Position to the right of the parent */
+  margin-left: 0.1rem; /* Slight margin for better spacing */
+  z-index: 1060; /* Ensure nested dropdowns appear above other dropdowns */
+}
+
+/* Show the nested dropdown on hover */
+.dropdown-submenu:hover .dropdown-menu.new {
+  display: block;
+}
+
+/* Responsive adjustments for mobile view */
+@media (max-width: 767.98px) {
+  .dropdown-menu {
+    position: static; /* Ensure dropdowns are in normal flow */
+  }
+
+  .dropdown-submenu:hover .dropdown-menu.new {
+    display: block; /* Show the submenu on click */
+  }
+
+  /* Add custom styles to make dropdown menus full width */
+  .dropdown-menu {
+    width: 100%; /* Ensure dropdowns fill the screen width */
+  }
+
+  .dropdown-menu.new {
+    left: 0; /* Align with parent dropdown */
+    margin-left: 0; /* Remove margin */
+    top: 31px; /* Adjust top to align with parent */
+  }
+}
+
+/* Navbar link color and hover state */
+.navbar-dark .navbar-nav .nav-link {
+  color: #000; /* Black color for text */
+}
+
+/* Change color on hover */
+.navbar-dark .navbar-nav .nav-link:hover {
+  color: #f00; /* Red color on hover */
+}
+.navbar-dark .navbar-nav .nav-link:focus, .navbar-dark .navbar-nav .nav-link:hover {
+  color: rgba(248, 0, 0, 0.75);
+}
+.navbar-dark .navbar-nav .nav-link:focus, .navbar-dark .navbar-nav .nav-link:hover {
+  /* color: rgba(255,255,255,.75); */
+}
+.h3, h3 {
+  font-size: calc(1.3rem + -0.4vw);
+}
+.producted {
+  width: 100%;
+  display: flex;
+}
+.main-image {
+  width: 60%;
+  margin-bottom: 10px;
+}
+.image-row {
+  display: flex;
+  justify-content: center;
+}
+.image-row img {
+  width: 30%;
+  margin: 5px;
+}
+.cont {
+  text-align: center;
+}
+.cont>img{
+  border: 9px solid white;
+  border-radius: 13px;
+}
+.image-row>img {
+  border: 9px solid white;
+  border-radius: 13px;
+}

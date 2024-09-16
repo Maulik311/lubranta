@@ -1,0 +1,484 @@
+/*
+ Theme Name:   Woodmart Child
+ Description:  Woodmart Child Theme
+ Author:       XTemos
+ Author URI:   http://xtemos.com
+ Template:     woodmart
+ Version:      1.0.0
+ Text Domain:  woodmart
+*/
+@import url("https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900");
+
+/*header*/
+.wd-logo img
+{
+	padding-top: 0px !important;
+}
+.wd-header-text.set-cont-mb-s.reset-last-child {
+    margin-top: 53px;
+}
+
+.page-title.page-title-default.title-size-default.title-design-centered.color-scheme-light.wd-nav-accordion-mb-on.title-shop, li#tab-title-wd_additional_tab
+{
+	display:none;
+}
+h1.product_title.entry-title.wd-entities-title {
+    font-size: 25px;
+    letter-spacing: 1px;
+}
+a.wa-shop-button:hover, a.wa-order-checkout:hover, a.wa-order-thankyou:hover, .wa-order-class:hover, .wa-order-button:hover, .shortcode_wa_button:hover, .shortcode_wa_button_nt:hover, .gdpr_wa_button_input:hover
+{
+	background: #ffffff !important;
+	border-radius: 100px !important;
+}
+.product-grid-item .product-wrapper img.attachment-large.size-large {
+    height: 250px;
+    object-fit: cover;
+    border-radius: 5px;
+    border: 1px solid gainsboro;
+}
+.product-grid-item .product-wrapper img.attachment-woocommerce_thumbnail.size-woocommerce_thumbnail {
+    height: 250px;
+    object-fit: cover;
+    border-radius: 5px;
+    border: 1px solid gainsboro;
+}
+/*heading*/
+/* .logo-heading h2:before {
+    content: '';
+    position: absolute;
+    background-repeat: no-repeat !important;
+    margin: auto;
+    background: url(https://demo2.advancetech.site/wp-content/uploads/2022/09/cropped-favicon.png);
+    width: 65%;
+    height: 50%;
+    background-size: contain;
+    top: -6px;
+    left: -50px;
+    right: 0;
+} */
+.custo-head span.premium-dual-header-first-span:before {
+    content: '';
+    position: absolute;
+    width: 2.5rem;
+    height: 2.5rem;
+    margin-top: -0.4rem;
+    left: -5px;
+    transform: skewY(-30deg);
+    transform-origin: left bottom;
+    background: #dc541c4d;
+    z-index: -1;
+    top: 10;
+}
+/* .custo-head h2.premium-dual-header-first-header:before {
+    content: '';
+    position: absolute;
+    background-repeat: no-repeat !important;
+    margin: auto;
+    background: url(https://demo2.advancetech.site/wp-content/uploads/2022/09/cropped-favicon.png);
+    width: 100%;
+    height: 100%;
+    background-size: contain;
+    top: -28px;
+    left: 42px;
+    right: 0;
+} */
+/*home*/
+/* .services-icon svg {
+    background: red;
+} */
+li.elementor-icon-list-item {
+    display: block;
+}
+.home-test .testimonial-content {
+    color: white;
+    font-size: 16px;
+    font-family: 'Marmelad';
+}
+.home-test .testimonial-content footer, .home-test .testimonial-content footer>span {
+    margin-top: 16px;
+    color: #ffffff;
+    font-family: 'Bitter';
+    font-size: 18px;
+}
+.steps-section .elementor-inner-column .elementor-widget-wrap .elementor-widget-heading
+{
+	transition: all 0.5s ease-in-out; 
+}
+.steps-section .elementor-inner-column .elementor-widget-wrap:hover .elementor-widget-heading 
+{ 
+	top: 210px; 
+	left: 160px !important; 
+	transform: rotateY(360deg); 
+	transition: all 0.7s ease-in-out; 
+}
+
+.why h2.elementor-heading-title.elementor-size-default {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: -12px;
+    line-height: 1em;
+    font-size: 80px;
+    letter-spacing: 1px !important;
+    font-weight: 700;
+    background: #fff;
+    -webkit-text-fill-color: #ffffff59;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #d8d1d1;
+    text-shadow: 0 15px 10px rgb(0 0 0 / 5%);
+    opacity: .50;
+    background: transparent;
+}
+
+.benefi-img img.swiper-slide-image
+{
+	object-fit: cover;
+    border-style: solid;
+    border-width: 7px 7px 7px 7px;
+    border-color: #B42423;
+    border-radius: 6px 6px 6px 6px;
+    box-shadow: 0px 0px 6px 1px rgb(0 0 0 / 33%);
+}
+.ser-imges img.attachment-large.size-large{
+    object-fit: cover;
+    border-style: solid;
+    border-width: 7px 7px 7px 7px;
+    border-color: #FFFFFF;
+    border-radius: 6px 6px 6px 6px;
+    box-shadow: 0px 0px 6px 1px rgb(0 0 0 / 33%);
+}
+.ser-imges img.attachment-full.size-full
+{
+	object-fit: cover;
+    border-style: solid;
+    border-width: 7px 7px 7px 7px;
+    border-color: #FFFFFF;
+    border-radius: 6px 6px 6px 6px;
+    box-shadow: 0px 0px 6px 1px rgb(0 0 0 / 33%);
+}
+.services-icon .elementor-image-box-content {
+    background: black;
+    /* color: white !important; */
+    padding-top: 15px !important;
+    padding-left: 50px;
+}
+.services-icon figure.elementor-image-box-img {
+    background: #DC541C;
+    padding: 10px;
+/*     clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%); */
+	clip-path: polygon(0% 15%, 15% 15%, 15% 0%, 85% 0%, 85% 15%, 100% 15%, 100% 85%, 85% 85%, 85% 100%, 15% 100%, 15% 85%, 0% 85%);
+	margin-right: -40px !important;
+    margin-left: 40px !important;
+}
+.services-icon figure.elementor-image-box-img img.attachment-full.size-full {
+    animation: tada 1.5s ease infinite;
+	padding:5px !important;
+}
+.ser-col-sect:hover .services-icon figure.elementor-image-box-img
+{
+	background: #B42423;
+}
+
+.services-icon .elementor-image-box-wrapper {
+    margin-top: -60px;
+}
+.why-choose-sect:before {
+    content: '';
+    position: absolute;
+    background: url(https://demo2.advancetech.site/wp-content/uploads/2022/09/22-1.png);
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    /* background-size: contain; */
+    left: 5%;
+    bottom: 20%;
+    animation: tm-animation-slide-horizontal 3s linear infinite alternate-reverse both;
+}
+@-webkit-keyframes tm-animation-slide-horizontal
+{
+	0% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+}
+100% {
+    -webkit-transform: translateX(-100px);
+    transform: translateX(-100px);
+}
+}
+.why-choose-sect:after {
+    content: '';
+    position: absolute;
+    background: url(https://demo2.advancetech.site/wp-content/uploads/2022/09/23-1.png);
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    /* background-size: contain; */
+    -webkit-animation-name: tm-animation-scaling;
+    -webkit-animation-duration: 3s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: ease-in-out;
+    top: 71%;
+    /* left: 0; */
+    right: -83%;
+}
+@-webkit-keyframes tm-animation-scaling	
+	{
+		0% {
+    -webkit-transform: scale(.9);
+}
+65% {
+    -webkit-transform: scale(1.0);
+}
+100% {
+    -webkit-transform: scale(.9);
+}
+}
+.home-exp h3.elementor-image-box-title {
+    font-size: 40px;
+}
+.ABOUT-C h2.elementor-heading-title.elementor-size-default {
+    position: absolute;
+    left: 54px;
+    top: -14px;
+    line-height: 1em;
+    font-size: 95px;
+    font-weight: 700;
+    background: #fff;
+    letter-spacing: -.05em;
+    text-align: center;
+    color: black;
+    /* transform: rotate(90deg); */
+    -webkit-text-fill-color: #ffffff;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #d8d1d1;
+    text-shadow: 0 15px 10px rgb(0 0 0 / 5%);
+    opacity: .50;
+    background: transparent;
+}
+.about-img img.attachment-full.size-full {
+    object-fit: cover;
+    border-style: solid;
+    border-width: 7px 7px 7px 7px;
+    border-color: #FFFFFF;
+    border-radius: 6px 6px 6px 6px;
+    box-shadow: 0px 0px 6px 1px rgb(0 0 0 / 33%);
+}
+.request-sample:before {
+    content: '';
+    position: absolute;
+    width: 200%;
+    height: 100%;
+    top: 40px;
+    opacity: .2;
+    background-image: url(https://demo2.advancetech.site/wp-content/uploads/2022/09/5837376_21849-ai-removebg-preview-1.png);
+    background-position: center;
+    object-fit: contain;
+    -webkit-animation-name: banner-animate;
+    -webkit-animation-duration: 70s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+}
+@-webkit-keyframes banner-animate {
+    0% {
+    -webkit-transform: translateX(-1000px);
+    transform: translateX(-1000px);
+    }
+
+    50% {
+    -webkit-transform: translateX(-10px);
+    transform: translateX(-10px);
+    }
+
+    100% {
+    -webkit-transform: translateX(-1000px);
+    transform: translateX(-1000px);
+    }
+}
+/*about*/
+.about-head1 .elementor-widget-container {
+    clip-path: polygon(75% 0%, 100% 50%, 75% 100%, 0% 100%, 25% 50%, 0% 0%);
+}
+.about-year h3.elementor-image-box-title {
+    font-size: 45px;
+    letter-spacing: 5px;
+}
+.mission figure.elementor-image-box-img {
+    background: -webkit-linear-gradient(left,#b42423,#dc541c);
+    padding: 15px;
+    border-radius: 20px;
+	box-shadow: 10px 10px 5px #5d5d5d36;
+}
+.mission img.attachment-full.size-full
+{
+	transition-duration: 2s!important;
+}
+.mission-sect:hover .mission img.attachment-full.size-full {
+    transform: rotate(360deg);
+    transition: transform 2s !important;
+}
+.value figure.elementor-image-box-img {
+    background: -webkit-linear-gradient(left,#b42423,#dc541c);
+    padding: 15px;
+    clip-path: polygon(0% 15%, 15% 15%, 15% 0%, 85% 0%, 85% 15%, 100% 15%, 100% 85%, 85% 85%, 85% 100%, 15% 100%, 15% 85%, 0% 85%);
+    border-radius: 20px;
+}
+.value-sect:hover .value img.attachment-full.size-full
+{
+	transform: rotate(360deg);
+    transition: transform 2s !important;
+}
+.value img.attachment-full.size-full
+{
+	transition-duration: 2s!important;
+}
+.value-k .elementor-image-box-wrapper:after {
+    content: '';
+    position: absolute;
+    top: 84px;
+    left: 145px;
+    height: 40px;
+    width: 1px;
+    background-color: #b1b1b1;
+}
+.value1 h3.elementor-image-box-title:before {
+    content: '';
+    position: absolute;
+    /* bottom: -73px; */
+    left: 50%;
+    margin-left: -3px;
+    height: 14px;
+    width: 14px;
+    z-index: 1;
+	top:0;
+    background-color: #B42423;
+    /* -webkit-transition: all .3s ease; */
+    -o-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    /* transition: all .3s ease; */
+}
+.value-k img.attachment-full.size-full {
+    animation: tada 1.5s ease infinite;
+}
+.value-k figure.elementor-image-box-img {
+    background: -webkit-linear-gradient(left,#b42423,#dc541c);
+    padding: 15px;
+    clip-path: polygon(0% 15%, 15% 15%, 15% 0%, 85% 0%, 85% 15%, 100% 15%, 100% 85%, 85% 85%, 85% 100%, 15% 100%, 15% 85%, 0% 85%);
+}
+@keyframes tada
+{
+	0% {
+    -webkit-transform: scale3d(1,1,1);
+    transform: scale3d(1,1,1);
+}
+10%, 20% {
+    -webkit-transform: scale3d(.95,.95,.95) rotate3d(0,0,1,-10deg);
+    transform: scale3d(.95,.95,.95) rotate3d(0,0,1,-10deg);
+}
+30%, 50%, 70%, 90% {
+    -webkit-transform: scale3d(1,1,1) rotate3d(0,0,1,10deg);
+    transform: scale3d(1,1,1) rotate3d(0,0,1,10deg);
+}
+40%, 60%, 80% {
+    -webkit-transform: rotate3d(0,0,1,-10deg);
+    transform: rotate3d(0,0,1,-10deg);
+}
+100% {
+    -webkit-transform: scale3d(1,1,1);
+    transform: scale3d(1,1,1);
+}
+}
+/*contact us*/
+.contact-icon p.elementor-image-box-description {
+    font-size: 15px !important;
+    letter-spacing: 1px;
+}
+/*header-footer*/
+.wd-button-wrapper.text-center span.wd-btn-text {
+    font-family: 'Ubuntu' !important;
+    font-size: 18px;
+    text-transform: capitalize;
+}
+.btn.btn-color-primary {
+	border-radius: 100px;
+}
+a.woodmart-nav-link {
+   font-size: 18px !important;
+    font-family: 'Ubuntu' !important;
+    text-transform: capitalize !important;
+    font-weight: 500 !important;
+}
+.cust-par p.elementor-icon-box-description {
+    font-size: 15px;
+    letter-spacing: 1px;
+}
+.footer-p a
+{
+	color:black !important;
+}
+
+@media only screen and (max-width: 600px){
+
+.service-icon h3.elementor-icon-box-title {
+    margin-left: 20px;
+    margin-top: 10px;
+	margin-right: -12px;
+}
+.service-icon .elementor-icon-box-wrapper {
+    display: flex;
+}
+.service-icon .elementor-icon-box-icon {
+	margin-right: -22px;
+    background: #DC541C;
+    clip-path: polygon(0% 15%, 15% 15%, 15% 0%, 85% 0%, 85% 15%, 100% 15%, 100% 85%, 85% 85%, 85% 100%, 15% 100%, 15% 85%, 0% 85%);
+    padding: 8px;
+}
+	.service-icon .elementor-icon-box-content {
+    background: black;
+    padding: 1px 80px 0px 10px;
+}
+	.service-icon .elementor-icon-box-wrapper {
+    margin-left: 30px;
+    margin-top: -60px;
+}
+	.service-icon .elementor-widget-container {
+    width: 277px !important;
+}
+	.elementor-8474 .elementor-element.elementor-element-24995b8:not(.elementor-motion-effects-element-type-background)
+	{
+		background-image: none;
+	}
+	.value1 h3.elementor-image-box-title:before {
+    content: '';
+    position: absolute;
+    /* bottom: -73px; */
+    left: 50%;
+    margin-left: -6px;
+    height: 14px;
+    width: 14px;
+    z-index: 1;
+    top: -5px;
+    background-color: #B42423;
+    /* -webkit-transition: all .3s ease; */
+    -o-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    /* transition: all .3s ease; */
+}
+	.value-k .elementor-image-box-wrapper:after {
+    content: '';
+    position: absolute;
+    top: 75px;
+    left: 0;
+    right: 0;
+    height: 40px;
+    width: 1px;
+    background-color: #b1b1b1;
+    margin: auto;
+}
+	.contact-icon p.elementor-image-box-description {
+    font-size: 12px !important;
+}
+	.contact-icon h3.elementor-image-box-title {
+    margin-top: 5px;
+}
+}
